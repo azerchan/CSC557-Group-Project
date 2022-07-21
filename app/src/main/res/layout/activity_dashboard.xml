@@ -11,41 +11,67 @@
         android:id="@+id/dashboardText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dashboard"
         android:fontFamily="@font/abril_fatface"
-        android:textSize="40dp"
         android:gravity="center"
         android:paddingTop="50dp"
-        />
+        android:text="Dashboard"
+        android:textSize="40dp" />
 
+    <Button
+        android:id="@+id/btnGrades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/dashboardText"
+        android:layout_marginTop="40dp"
+        android:background="#ffffff"
+        android:fontFamily="@font/dm_serif_text"
+        android:drawableLeft="@drawable/ic_baseline_grade_24"
+        android:drawableTint="@color/white"
+        android:text="View Grade Table" />
+
+    <Button
+        android:id="@+id/btnCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnGrades"
+        android:layout_marginTop="40dp"
+        android:background="#ffffff"
+        android:fontFamily="@font/dm_serif_text"
+        android:drawableLeft="@drawable/ic_baseline_library_books_24"
+        android:drawableTint="@color/white"
+        android:text="View Course Table" />
 
     <Button
         android:id="@+id/btnCalcGPA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/dashboardText"
+        android:layout_below="@id/btnCourse"
         android:layout_centerInParent="true"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="40dp"
         android:background="#ffffff"
-        android:fontFamily="@font/dm_serif_text"
-        android:gravity="center"
         android:drawableLeft="@drawable/ic_baseline_menu_book_24"
         android:drawableTint="@color/white"
-        android:text="Calculate GPA" />
+        android:fontFamily="@font/dm_serif_text"
+        android:gravity="center"
+        android:text="Insert Course Details" />
 
     <Button
         android:id="@+id/btnCalcCGPA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_centerInParent="true"
         android:layout_below="@id/btnCalcGPA"
+        android:layout_centerInParent="true"
         android:layout_marginTop="40dp"
         android:background="#ffffff"
-        android:fontFamily="@font/dm_serif_text"
         android:drawableLeft="@drawable/ic_baseline_checklist_24"
         android:drawableTint="@color/white"
-        android:text="Calculate CGPA" />
+        android:fontFamily="@font/dm_serif_text"
+        android:gravity="center"
+        android:text="Display GPA/CGPA" />
 
 
     <!-- <Button

@@ -17,7 +17,7 @@
         android:text="Dashboard"
         android:textSize="40dp" />
 
-    <Button
+    <!-- <Button
         android:id="@+id/btnGrades"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,15 +43,15 @@
         android:fontFamily="@font/dm_serif_text"
         android:drawableLeft="@drawable/ic_baseline_library_books_24"
         android:drawableTint="@color/white"
-        android:text="View Course Table" />
+        android:text="View Course Table" /> -->
 
     <Button
         android:id="@+id/btnCalcGPA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btnCourse"
+        android:layout_below="@id/dashboardText"
         android:layout_centerInParent="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="140dp"
         android:background="#ffffff"
         android:drawableLeft="@drawable/ic_baseline_menu_book_24"
         android:drawableTint="@color/white"
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btnCalcGPA"
         android:layout_centerInParent="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="50dp"
         android:background="#ffffff"
         android:drawableLeft="@drawable/ic_baseline_checklist_24"
         android:drawableTint="@color/white"
@@ -74,7 +74,7 @@
         android:text="Display GPA/CGPA" />
 
 
-    <Button
+    <!-- <Button
         android:id="@+id/btnTestRV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
         android:fontFamily="@font/dm_serif_text"
         android:drawableLeft="@drawable/ic_baseline_account_circle_24"
         android:drawableTint="@color/white"
-        android:text="!!! TEST !!!" />
+        android:text="!!! TEST !!!" /> -->
 
 
     <Button
@@ -96,7 +96,7 @@
         android:gravity="center"
         android:layout_centerInParent="true"
         android:layout_below="@id/btnCalcCGPA"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="50dp"
         android:background="#ffffff"
         android:fontFamily="@font/dm_serif_text"
         android:drawableLeft="@drawable/ic_baseline_logout_24"

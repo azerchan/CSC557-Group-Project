@@ -74,19 +74,19 @@
         android:text="Display GPA/CGPA" />
 
 
-    <!-- <Button
-        android:id="@+id/btnViewAccount"
+    <Button
+        android:id="@+id/btnTestRV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_centerInParent="true"
-        android:layout_below="@id/btnCalcCGPA"
+        android:layout_below="@id/btnLogout"
         android:layout_marginTop="40dp"
         android:background="#ffffff"
         android:fontFamily="@font/dm_serif_text"
         android:drawableLeft="@drawable/ic_baseline_account_circle_24"
         android:drawableTint="@color/white"
-        android:text="View Account" /> -->
+        android:text="!!! TEST !!!" />
 
 
     <Button
